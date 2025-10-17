@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS bankingdb;
+USE bankingdb;
+
+CREATE TABLE IF NOT EXISTS customers (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    balance DOUBLE NOT NULL
+);
